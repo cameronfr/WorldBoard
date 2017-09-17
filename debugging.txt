@@ -1,0 +1,14 @@
+override is for development
+normal is for actually serving
+better to use own docker file with web server setup
+
+in .html file, relative paths are different because can’t get web pack to work when serving from /static/
+
+web pack not searching for modules in normal node_modules when including in js/example.js files…
+
+open event on golden layout containers is called too early, hence can’t make drag-in able highchairs
+
+golden layout emitters don’t work?
+
+future: twitter feed? satori? other realtime datasets? faster than 15 min?
+
